@@ -52,7 +52,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+# *.log
 local_settings.py
 db.sqlite3
 
@@ -111,7 +111,7 @@ data
 # custom
 *.pkl
 *.pkl.json
-*.log.json
+# *.log.json
 # work_dirs/
 
 # Pytorch
