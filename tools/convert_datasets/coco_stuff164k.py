@@ -1,11 +1,10 @@
 import argparse
+import mmcv
+import numpy as np
 import os.path as osp
 import shutil
 from functools import partial
 from glob import glob
-
-import mmcv
-import numpy as np
 from PIL import Image
 
 COCO_LEN = 123287
@@ -241,11 +240,15 @@ def main():
                 convert_to_trainID, out_mask_dir=out_mask_dir, is_train=True),
             train_list,
             nproc=nproc)
-        mmcv.track_parallel_progress(
+        # mmcv.track_parallel_progress(
+        #     partial(
+        #         convert_to_trainID, out_mask_dir=out_mask_dir, is_train=False),
+        #     test_list,
+        #     nproc=nproc)
+        mmcv.track_progress(
             partial(
                 convert_to_trainID, out_mask_dir=out_mask_dir, is_train=False),
-            test_list,
-            nproc=nproc)
+            test_list)
     else:
         mmcv.track_progress(
             partial(
