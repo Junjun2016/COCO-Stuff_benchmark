@@ -1,144 +1,77 @@
-<div align="center">
-  <img src="resources/mmseg-logo.png" width="600"/>
-</div>
-<br />
+# COCO-Stuff Benchmark
 
-[![PyPI](https://img.shields.io/pypi/v/mmsegmentation)](https://pypi.org/project/mmsegmentation)
-[![docs](https://img.shields.io/badge/docs-latest-blue)](https://mmsegmentation.readthedocs.io/en/latest/)
-[![badge](https://github.com/open-mmlab/mmsegmentation/workflows/build/badge.svg)](https://github.com/open-mmlab/mmsegmentation/actions)
-[![codecov](https://codecov.io/gh/open-mmlab/mmsegmentation/branch/master/graph/badge.svg)](https://codecov.io/gh/open-mmlab/mmsegmentation)
-[![license](https://img.shields.io/github/license/open-mmlab/mmsegmentation.svg)](https://github.com/open-mmlab/mmsegmentation/blob/master/LICENSE)
-[![issue resolution](https://isitmaintained.com/badge/resolution/open-mmlab/mmsegmentation.svg)](https://github.com/open-mmlab/mmsegmentation/issues)
-[![open issues](https://isitmaintained.com/badge/open/open-mmlab/mmsegmentation.svg)](https://github.com/open-mmlab/mmsegmentation/issues)
+## COCO-Stuff 10k
 
-Documentation: https://mmsegmentation.readthedocs.io/
+### DeepLabV3
 
-English | [简体中文](README_zh-CN.md)
+| config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
+| ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
+| [deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k.py) | 20210707_152034.log.json | 36.61 | 47.61 | 10 | 36.61 | 47.61 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k/20210711_175536.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k/20210711_175536.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k.py) | 20210707_152034.log.json | 37.48 | 49.47 | 10 | 37.48 | 49.47 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210818_111247.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210818_111247.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k.py) | 20210707_152034.log.json | 37.3 | 49.38 | 10 | 37.3 | 49.38 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210821_043025.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210821_043025.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k.py) | 20210707_152034.log.json | 35.92 | 45.89 | 10 | 35.92 | 45.89 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k/20210711_175535.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k/20210711_175535.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k.py) | 20210707_152034.log.json | 0 | 0 | 0 | 0 | 0 | 0 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k/20210715_194710.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff10k/20210715_194710.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_40k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_40k_coco_stuff10k.py) | 20210707_152034.log.json | 37.81 | 49.98 | 10 | 37.81 | 49.98 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_40k_coco_stuff10k/20210821_043305.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_40k_coco_stuff10k/20210821_043305.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 37.27 | 49.15 | 10 | 37.27 | 49.15 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff10k/20210711_175535.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff10k/20210711_175535.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff10k.py) | 20210707_152034.log.json | 35.17 | 45.9 | 10 | 35.17 | 45.9 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff10k/20210711_175537.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff10k/20210711_175537.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k.py) | 20210707_152034.log.json | 0 | 0 | 0 | 0 | 0 | 0 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k/20210820_172728.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k/20210820_172728.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k.py) | 20210707_152034.log.json | 34.66 | 46.38 | 10 | 34.66 | 46.38 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k/20210821_043025.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_20k_coco_stuff10k/20210821_043025.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k.py) | 20210707_152034.log.json | 34.66 | 44.86 | 10 | 34.66 | 44.86 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k/20210711_175535.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k/20210711_175535.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k.py) | 20210707_152034.log.json | 0 | 0 | 0 | 0 | 0 | 0 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k/20210715_194710.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff10k/20210715_194710.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_40k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_40k_coco_stuff10k.py) | 20210707_152034.log.json | 35.73 | 47.77 | 10 | 35.73 | 47.77 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_40k_coco_stuff10k/20210821_043305.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_40k_coco_stuff10k/20210821_043305.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 35.05 | 46.61 | 9 | 35.05 | 46.61 | 9 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210711_175536.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210711_175536.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 30.9 | 41.6 | 4 | 30.9 | 41.6 | 4 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210713_030052.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210713_030052.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 32.83 | 44.51 | 7 | 32.83 | 44.51 | 7 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210713_170630.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210713_170630.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 35.04 | 46.76 | 9 | 35.04 | 46.76 | 9 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210714_160141.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210714_160141.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 30.75 | 41.23 | 4 | 30.75 | 41.23 | 4 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210715_192500.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210715_192500.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 36.05 | 47.31 | 10 | 36.05 | 47.31 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210716_144429.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210716_144429.log.json) |
 
-## Introduction
+### PSPNet
 
-MMSegmentation is an open source semantic segmentation toolbox based on PyTorch.
-It is a part of the OpenMMLab project.
+| config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
+| ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
+| [pspnet_r101-d8_512x512_4x4_160k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_160k_coco_stuff10k.py) | 20210707_152034.log.json | 36.74 | 47.91 | 10 | 36.74 | 47.91 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_160k_coco_stuff10k/20210711_194759.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_160k_coco_stuff10k/20210711_194759.log.json) |
+| [pspnet_r101-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_20k_coco_stuff10k.py) | 20210707_152034.log.json | 37.26 | 49.33 | 10 | 37.26 | 49.33 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_20k_coco_stuff10k/20210820_232135.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_20k_coco_stuff10k/20210820_232135.log.json) |
+| [pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k.py) | 20210707_152034.log.json | 35.15 | 45.99 | 10 | 35.15 | 45.99 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k/20210711_210229.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k/20210711_210229.log.json) |
+| [pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k.py) | 20210707_152034.log.json | 0 | 0 | 0 | 0 | 0 | 0 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k/20210715_194834.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_320k_coco_stuff10k/20210715_194834.log.json) |
+| [pspnet_r101-d8_512x512_4x4_40k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_40k_coco_stuff10k.py) | 20210707_152034.log.json | 37.76 | 49.65 | 10 | 37.76 | 49.65 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_40k_coco_stuff10k/20210821_014022.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_40k_coco_stuff10k/20210821_014022.log.json) |
+| [pspnet_r101-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 37.43 | 49.03 | 10 | 37.43 | 49.03 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_80k_coco_stuff10k/20210711_194759.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_80k_coco_stuff10k/20210711_194759.log.json) |
+| [pspnet_r50-d8_512x512_4x4_160k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_160k_coco_stuff10k.py) | 20210707_152034.log.json | 36.16 | 47.03 | 10 | 36.16 | 47.03 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_160k_coco_stuff10k/20210711_184424.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_160k_coco_stuff10k/20210711_184424.log.json) |
+| [pspnet_r50-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_20k_coco_stuff10k.py) | 20210707_152034.log.json | 35.69 | 47.04 | 10 | 35.69 | 47.04 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_20k_coco_stuff10k/20210820_203258.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_20k_coco_stuff10k/20210820_203258.log.json) |
+| [pspnet_r50-d8_512x512_4x4_320k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_320k_coco_stuff10k.py) | 20210707_152034.log.json | 34.44 | 44.78 | 10 | 34.44 | 44.78 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_320k_coco_stuff10k/20210711_184424.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_320k_coco_stuff10k/20210711_184424.log.json) |
+| [pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k.py) | 20210707_152034.log.json | 36.48 | 47.83 | 10 | 36.48 | 47.83 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k/20210818_192505.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k/20210818_192505.log.json) |
+| [pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k.py) | 20210707_152034.log.json | 36.33 | 47.72 | 10 | 36.33 | 47.72 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k/20210821_030857.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k/20210821_030857.log.json) |
+| [pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 35.86 | 47.1 | 10 | 35.86 | 47.1 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k/20210711_210229.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k/20210711_210229.log.json) |
 
-The master branch works with **PyTorch 1.3+**.
+## COCO-Stuff 164k
 
-![demo image](resources/seg_demo.gif)
+### DeepLabV3
 
-### Major features
+| config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
+| ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
+| [deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 28.66 | 41.0 | 2 | 29.04 | 41.44 | 1 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210707_152005.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210707_152005.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 0 | 0 | 0 | 0 | 0 | 0 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210709_140851.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210709_140851.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 0 | 0 | 0 | 0 | 0 | 0 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210709_145024.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210709_145024.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 41.82 | 54.63 | 10 | 41.82 | 54.63 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210709_155402.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff164k/20210709_155402.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k.py) | 20210707_152034.log.json | 27.78 | 40.23 | 1 | 27.78 | 40.23 | 1 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k/20210707_152006.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k/20210707_152006.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k.py) | 20210707_152034.log.json | 42.61 | 55.24 | 10 | 42.61 | 55.24 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k/20210709_155402.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_320k_coco_stuff164k/20210709_155402.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 31.04 | 43.66 | 4 | 31.04 | 43.66 | 4 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k/20210707_152005.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k/20210707_152005.log.json) |
+| [deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 40.87 | 53.8 | 10 | 40.87 | 53.8 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k/20210709_201252.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_80k_coco_stuff164k/20210709_201252.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 29.58 | 41.51 | 3 | 29.58 | 41.51 | 3 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k/20210707_152005.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k/20210707_152005.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 41.09 | 53.37 | 10 | 41.09 | 53.37 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k/20210709_163016.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_160k_coco_stuff164k/20210709_163016.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k.py) | 20210707_152034.log.json | 26.5 | 38.38 | 1 | 26.5 | 38.38 | 1 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k/20210707_152034.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k/20210707_152034.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k.py) | 20210707_152034.log.json | 41.37 | 53.82 | 10 | 41.37 | 53.82 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k/20210709_155403.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_320k_coco_stuff164k/20210709_155403.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 31.32 | 43.71 | 5 | 31.32 | 43.71 | 5 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210707_152004.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210707_152004.log.json) |
+| [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 39.38 | 51.76 | 10 | 39.38 | 51.76 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210709_163016.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210709_163016.log.json) |
 
-- **Unified Benchmark**
+### PSPNet
 
-  We provide a unified benchmark toolbox for various semantic segmentation methods.
+| config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
+| ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
+| [pspnet_r101-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 41.28 | 53.73 | 10 | 41.28 | 53.73 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_160k_coco_stuff164k/20210707_152004.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_160k_coco_stuff164k/20210707_152004.log.json) |
+| [pspnet_r101-d8_512x512_4x4_320k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_320k_coco_stuff164k.py) | 20210707_152034.log.json | 41.95 | 54.42 | 10 | 41.95 | 54.42 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_320k_coco_stuff164k/20210707_152004.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_320k_coco_stuff164k/20210707_152004.log.json) |
+| [pspnet_r101-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r101-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 40.34 | 52.96 | 10 | 40.34 | 52.96 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_80k_coco_stuff164k/20210707_152034.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r101-d8_512x512_4x4_80k_coco_stuff164k/20210707_152034.log.json) |
+| [pspnet_r50-d8_512x512_4x4_160k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_160k_coco_stuff164k.py) | 20210707_152034.log.json | 39.64 | 51.78 | 10 | 39.64 | 51.78 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_160k_coco_stuff164k/20210707_152004.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_160k_coco_stuff164k/20210707_152004.log.json) |
+| [pspnet_r50-d8_512x512_4x4_320k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_320k_coco_stuff164k.py) | 20210707_152034.log.json | 40.53 | 52.53 | 10 | 40.53 | 52.53 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_320k_coco_stuff164k/20210707_152004.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_320k_coco_stuff164k/20210707_152004.log.json) |
+| [pspnet_r50-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/configs/pspnet/pspnet_r50-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 38.8 | 51.07 | 10 | 38.8 | 51.07 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_80k_coco_stuff164k/20210707_152034.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_80k_coco_stuff164k/20210707_152034.log.json) |
 
-- **Modular Design**
-
-  We decompose the semantic segmentation framework into different components and one can easily construct a customized semantic segmentation framework by combining different modules.
-
-- **Support of multiple methods out of box**
-
-  The toolbox directly supports popular and contemporary semantic segmentation frameworks, *e.g.* PSPNet, DeepLabV3, PSANet, DeepLabV3+, etc.
-
-- **High efficiency**
-
-  The training speed is faster than or comparable to other codebases.
-
-## License
-
-This project is released under the [Apache 2.0 license](LICENSE).
-
-## Changelog
-
-v0.15.0 was released in 07/04/2021.
-Please refer to [changelog.md](docs/changelog.md) for details and release history.
-
-## Benchmark and model zoo
-
-Results and models are available in the [model zoo](docs/model_zoo.md).
-
-Supported backbones:
-
-- [x] ResNet (CVPR'2016)
-- [x] ResNeXt (CVPR'2017)
-- [x] [HRNet (CVPR'2019)](configs/hrnet)
-- [x] [ResNeSt (ArXiv'2020)](configs/resnest)
-- [x] [MobileNetV2 (CVPR'2018)](configs/mobilenet_v2)
-- [x] [MobileNetV3 (ICCV'2019)](configs/mobilenet_v3)
-- [x] [Vision Transformer (ICLR'2021)](configs/vit)
-- [x] [Swin Transformer (arXiV'2021)](configs/swin)
-
-Supported methods:
-
-- [x] [FCN (CVPR'2015/TPAMI'2017)](configs/fcn)
-- [x] [UNet (MICCAI'2016/Nat. Methods'2019)](configs/unet)
-- [x] [PSPNet (CVPR'2017)](configs/pspnet)
-- [x] [DeepLabV3 (ArXiv'2017)](configs/deeplabv3)
-- [x] [Mixed Precision (FP16) Training (ArXiv'2017)](configs/fp16)
-- [x] [PSANet (ECCV'2018)](configs/psanet)
-- [x] [DeepLabV3+ (CVPR'2018)](configs/deeplabv3plus)
-- [x] [UPerNet (ECCV'2018)](configs/upernet)
-- [x] [NonLocal Net (CVPR'2018)](configs/nonlocal_net)
-- [x] [EncNet (CVPR'2018)](configs/encnet)
-- [x] [Semantic FPN (CVPR'2019)](configs/sem_fpn)
-- [x] [DANet (CVPR'2019)](configs/danet)
-- [x] [APCNet (CVPR'2019)](configs/apcnet)
-- [x] [EMANet (ICCV'2019)](configs/emanet)
-- [x] [CCNet (ICCV'2019)](configs/ccnet)
-- [x] [DMNet (ICCV'2019)](configs/dmnet)
-- [x] [ANN (ICCV'2019)](configs/ann)
-- [x] [GCNet (ICCVW'2019/TPAMI'2020)](configs/gcnet)
-- [x] [Fast-SCNN (ArXiv'2019)](configs/fastscnn)
-- [x] [OCRNet (ECCV'2020)](configs/ocrnet)
-- [x] [DNLNet (ECCV'2020)](configs/dnlnet)
-- [x] [PointRend (CVPR'2020)](configs/point_rend)
-- [x] [CGNet (TIP'2020)](configs/cgnet)
-- [x] [SETR (CVPR'2021)](configs/setr)
-
-## Installation
-
-Please refer to [get_started.md](docs/get_started.md#installation) for installation and [dataset_prepare.md](docs/dataset_prepare.md#prepare-datasets) for dataset preparation.
-
-## Get Started
-
-Please see [train.md](docs/train.md) and [inference.md](docs/inference.md) for the basic usage of MMSegmentation.
-There are also tutorials for [customizing dataset](docs/tutorials/customize_datasets.md), [designing data pipeline](docs/tutorials/data_pipeline.md), [customizing modules](docs/tutorials/customize_models.md), and [customizing runtime](docs/tutorials/customize_runtime.md).
-We also provide many [training tricks](docs/tutorials/training_tricks.md).
-
-A Colab tutorial is also provided. You may preview the notebook [here](demo/MMSegmentation_Tutorial.ipynb) or directly [run](https://colab.research.google.com/github/open-mmlab/mmsegmentation/blob/master/demo/MMSegmentation_Tutorial.ipynb) on Colab.
-
-## Citation
-
-If you find this project useful in your research, please consider cite:
-
-```latex
-@misc{mmseg2020,
-    title={{MMSegmentation}: OpenMMLab Semantic Segmentation Toolbox and Benchmark},
-    author={MMSegmentation Contributors},
-    howpublished = {\url{https://github.com/open-mmlab/mmsegmentation}},
-    year={2020}
-}
-```
-
-## Contributing
-
-We appreciate all contributions to improve MMSegmentation. Please refer to [CONTRIBUTING.md](.github/CONTRIBUTING.md) for the contributing guideline.
-
-## Acknowledgement
-
-MMSegmentation is an open source project that welcome any contribution and feedback.
-We wish that the toolbox and benchmark could serve the growing research
-community by providing a flexible as well as standardized toolkit to reimplement existing methods
-and develop their own new semantic segmentation methods.
-
-## Projects in OpenMMLab
-
-- [MMCV](https://github.com/open-mmlab/mmcv): OpenMMLab foundational library for computer vision.
-- [MMClassification](https://github.com/open-mmlab/mmclassification): OpenMMLab image classification toolbox and benchmark.
-- [MMDetection](https://github.com/open-mmlab/mmdetection): OpenMMLab detection toolbox and benchmark.
-- [MMDetection3D](https://github.com/open-mmlab/mmdetection3d): OpenMMLab's next-generation platform for general 3D object detection.
-- [MMSegmentation](https://github.com/open-mmlab/mmsegmentation): OpenMMLab semantic segmentation toolbox and benchmark.
-- [MMAction2](https://github.com/open-mmlab/mmaction2): OpenMMLab's next-generation action understanding toolbox and benchmark.
-- [MMTracking](https://github.com/open-mmlab/mmtracking): OpenMMLab video perception toolbox and benchmark.
-- [MMPose](https://github.com/open-mmlab/mmpose): OpenMMLab pose estimation toolbox and benchmark.
-- [MMEditing](https://github.com/open-mmlab/mmediting): OpenMMLab image and video editing toolbox.
-- [MMOCR](https://github.com/open-mmlab/mmocr): A Comprehensive Toolbox for Text Detection, Recognition and Understanding.
-- [MMGeneration](https://github.com/open-mmlab/mmgeneration): A powerful toolkit for generative models.
