@@ -102,6 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+my_tools/
 
 data
 .vscode
@@ -111,7 +112,10 @@ data
 *.pkl
 *.pkl.json
 *.log.json
-work_dirs/
+# work_dirs/
 
 # Pytorch
 *.pth
+
+# history
+.history
