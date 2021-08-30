@@ -1,8 +1,8 @@
 # COCO-Stuff Benchmark
 
-## stuff10k
+## COCO-Stuff 10k
 
-### deeplabv3
+### DeepLabV3
 
 | config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
 | ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
@@ -26,7 +26,7 @@
 | [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 30.75 | 41.23 | 4 | 30.75 | 41.23 | 4 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210715_192500.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210715_192500.log.json) |
 | [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 36.05 | 47.31 | 10 | 36.05 | 47.31 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210716_144429.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff10k/20210716_144429.log.json) |
 
-### pspnet
+### PSPNet
 
 | config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
 | ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
@@ -43,9 +43,9 @@
 | [pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/pspnet/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k.py) | 20210707_152034.log.json | 36.33 | 47.72 | 10 | 36.33 | 47.72 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k/20210821_030857.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_40k_coco_stuff10k/20210821_030857.log.json) |
 | [pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/pspnet/pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k.py) | 20210707_152034.log.json | 35.86 | 47.1 | 10 | 35.86 | 47.1 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k/20210711_210229.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/pspnet_r50-d8_512x512_4x4_80k_coco_stuff10k/20210711_210229.log.json) |
 
-## stuff164k
+## COCO-Stuff 164k
 
-### deeplabv3
+### DeepLabV3
 
 | config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
 | ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
@@ -64,7 +64,7 @@
 | [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 31.32 | 43.71 | 5 | 31.32 | 43.71 | 5 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210707_152004.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210707_152004.log.json) |
 | [deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/deeplabv3/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k.py) | 20210707_152034.log.json | 39.38 | 51.76 | 10 | 39.38 | 51.76 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210709_163016.log) &#124; [log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r50-d8_512x512_4x4_80k_coco_stuff164k/20210709_163016.log.json) |
 
-### pspnet
+### PSPNet
 
 | config | log time | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
 | ------ |--------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
