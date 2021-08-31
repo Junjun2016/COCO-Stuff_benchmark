@@ -6,8 +6,8 @@
 
 ### DeepLabV3
 
-| config | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
-| ------ | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
+| config                  | mIoU last | mAcc last | eval last | mIoU best | mAcc best | eval best | download |
+| ----------------------- | --------- | --------- | --------- | --------- | --------- | --------- | -------- |
 | [deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k.py) | 36.61 | 47.61 | 10 | 36.61 | 47.61 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k/20210711_175536.log) &#124; [20210707_152034.log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_160k_coco_stuff10k/20210711_175536.log.json) |
 | [deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k.py) | 37.48 | 49.47 | 10 | 37.48 | 49.47 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210818_111247.log) &#124; [20210707_152034.log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210818_111247.log.json) |
 | [deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k](https://github.com/Junjun2016/COCO-Stuff_benchmark/blob/master/configs/deeplabv3/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k.py) | 37.3 | 49.38 | 10 | 37.3 | 49.38 | 10 | [log](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210821_043025.log) &#124; [20210707_152034.log.json](https://github.com/Junjun2016/COCO-Stuff_benchmark/work_dirs/deeplabv3_r101-d8_512x512_4x4_20k_coco_stuff10k/20210821_043025.log.json) |
